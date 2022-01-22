@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       color: whiteColor,
       debugShowCheckedModeBanner: false,
-      initialRoute: '/food',
+      initialRoute: '/',
       routes: {
         '/': (context) => const HomePage(),
         '/food': (context) => const FoodPage(),

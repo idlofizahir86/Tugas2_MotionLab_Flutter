@@ -20,7 +20,7 @@ class _PlusMinusState extends State<PlusMinus> {
 
   void minus() {
     setState(() {
-      if (_n != 0) _n--;
+      if (_n != 1) _n--;
     });
   }
 
